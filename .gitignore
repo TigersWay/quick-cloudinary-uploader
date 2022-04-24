@@ -1,0 +1,16 @@
+# Windows & helpers, IDE & Personal preferences
+desktop.ini
+folder.ico
+.vscode/
+
+# Dependency files & directories (p/npm)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# dotenv environment variables file(s)
+.env*
+
+# This project specific files & directories
+images/
+assets/

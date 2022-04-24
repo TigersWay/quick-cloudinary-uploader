@@ -1,0 +1,35 @@
+{
+  "name": "quick-cloudinary-uploader",
+  "description": "A very simple Cloudinary uploader in a Node environment only",
+  "keywords": [
+    "nodejs-cli",
+    "cli",
+    "cloudinary",
+    "upload",
+    "images"
+  ],
+	"version": "1.0.0",
+  "license": "MIT",
+  "author": "Ben Michaud <ben@tigersway.net>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TigersWay/quick-cloudinary-uploader.git"
+  },
+  "homepage": "https://github.com/TigersWay/quick-cloudinary-uploader/#readme",
+  "files": [
+    "cli.js"
+  ],
+  "bin": {
+    "qcu": "./cli.js"
+  },
+	"scripts": {
+		"start": "node cli -p testApril 'images/**/*' 'assets:**/*'"
+	},
+	"dependencies": {
+		"cloudinary": "^1.29.1",
+		"commander": "^9.2.0",
+		"dotenv": "^16.0.0",
+		"fast-glob": "^3.2.11",
+		"picocolors": "^1.0.0"
+	}
+}
