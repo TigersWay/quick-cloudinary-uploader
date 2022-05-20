@@ -8,7 +8,7 @@
     "upload",
     "images"
   ],
-	"version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Ben Michaud <ben@tigersway.net>",
   "repository": {
@@ -22,14 +22,14 @@
   "bin": {
     "qcu": "./cli.js"
   },
-	"scripts": {
-		"start": "node cli -p testApril 'images/**/*' 'assets:**/*'"
-	},
-	"dependencies": {
-		"cloudinary": "^1.29.1",
-		"commander": "^9.2.0",
-		"dotenv": "^16.0.0",
-		"fast-glob": "^3.2.11",
-		"picocolors": "^1.0.0"
-	}
+  "scripts": {
+    "start": "node cli -p testApril 'images/**/*' 'assets:**/*'"
+  },
+  "dependencies": {
+    "cloudinary": "^1.30.0",
+    "commander": "^9.2.0",
+    "dotenv": "^16.0.1",
+    "fast-glob": "^3.2.11",
+    "picocolors": "^1.0.0"
+  }
 }

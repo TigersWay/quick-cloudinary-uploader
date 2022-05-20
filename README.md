@@ -30,3 +30,12 @@ should upload new images only to the root of your Cloudinary folder.
 
 - `qcu -fp my-project 'images/**/*' 'assets:**/*.{jpg,png,svg}'`\
 ALL images from the local `images` folder, and ALL jpg, png and svg from your `assets` folder - but without the "assets" part - will be uploaded to the `my-project` Cloudinary folder.
+
+
+## CHANGELOG
+
+**v1.0.1**
+- Update dependencies
+
+**v1.0.0**
+- Initial upload
