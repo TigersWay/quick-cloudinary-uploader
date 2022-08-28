@@ -3,8 +3,6 @@
 Mostly Windows user, I didn't want to deal with Python if I didn't need to, but still needed a simple Cloudinary uploader.
 Here is an "quick" way.
 
-*`WARN  deprecated core-js@3.6.5` : No worry, Cloudinary seems to allow Node<8 users.*
-
 ### Usage  [![npm](https://img.shields.io/npm/dm/quick-cloudinary-uploader?label=npmjs&logo=npm&style=flat-square) ![npm](https://img.shields.io/npm/dt/quick-cloudinary-uploader?label=npmjs&logo=npm&style=flat-square)](https://www.npmjs.com/package/quick-cloudinary-uploader)
 
 You first have to configure the required `cloud_name`, `api_key`, and `api_secret` by defining the `CLOUDINARY_URL` environment variable.\
