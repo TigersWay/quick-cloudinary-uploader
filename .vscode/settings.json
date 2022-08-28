@@ -1,0 +1,7 @@
+{
+  "cSpell.words": ["cloudinary"],
+  "markdownlint.config": {
+    "MD001": false,
+    "MD013": false
+  }
+}

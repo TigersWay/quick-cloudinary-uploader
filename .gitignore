@@ -1,7 +1,7 @@
 # Windows & helpers, IDE & Personal preferences
 desktop.ini
 folder.ico
-.vscode/
+# .vscode/
 
 # Dependency files & directories (p/npm)
 node_modules/
