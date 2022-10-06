@@ -41,6 +41,13 @@ Options:
 
 ### CHANGELOG
 
+- **v1.1.0**
+  - Little warning when path(s) may be wrong (don't have any file)
+  - Update dependencies
+
+- **v1.0.3**
+  - Update dependencies
+  
 - **v1.0.2**
   - README refresh
   - Update dependencies
